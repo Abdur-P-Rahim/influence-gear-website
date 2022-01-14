@@ -7,10 +7,17 @@ body{
      font-family: 'Poppins', sans-serif;
 }
 
+
+/* ------------------------------------
+          navber and logo
+---------------------------------- ----- */
+
+
 .container{
      max-width: 1200px;
      margin: 0 auto;
      padding: 0 30px;
+     margin-top: 50px;
 }
 nav{
      display: flex;
@@ -70,7 +77,7 @@ nav{
      border: 2px solid 	#ff1493;
      font-size: 20px;
      border-radius: 60px;
-     background-color: #c00d6c ;
+     background-color: #970f58 ;
      cursor: pointer;
      transition: 0.5s;
 }
@@ -84,6 +91,72 @@ nav{
 }
 
 
+/* -----------------------------------
+          Popular Collection 
+--------------------------------------- */
+
+.section-heading{
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+     margin-bottom: 70px;
+}
+.popular-collection{
+     margin-bottom: 40px;
+}
+.accessories{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 30px;
+     grid-row-gap: 60px;
+   
+    
+     
+}
+.card{
+     width: 330px;
+     border-radius: 3px;
+     box-shadow: 3px 3px 3px 3px lightgrey; 
+     margin-bottom: 10px;
+}
+.card-banner{
+     width: 100%;
+     padding: 10px;
+     margin: 5px;
+}
+.card-detail{
+     padding: 10px;
+     margin: 5px;
+}
+.card-title{
+     margin-bottom:10px ;
+     font-size: 30px;
+}
+.card-price{
+     margin-bottom: 8px;
+     font-weight: 300;
+     font-size: 25px;
+}
+
+.card-info{
+     margin-bottom: 10px;
+     padding-right: 10px;
+}
+.see-more-btn a{
+     font-size: 20px;
+     color: #E02C6D;
+     text-decoration: none;
+     padding: 10px;
+}
+
+/* ------------------------
+     see more button 
+---------------------- */
+.see-more-btn{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+}
 
 
 
