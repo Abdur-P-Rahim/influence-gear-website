@@ -74,10 +74,10 @@ nav{
 .prebook-btn {
      padding: 10px 22px;
      margin-top: 20px;
-     border: 2px solid 	#ff1493;
+     border: 2px solid 	rgb(32, 94, 133);
      font-size: 20px;
      border-radius: 60px;
-     background-color: #970f58 ;
+     background-color: rgb(25, 127, 190) ;
      cursor: pointer;
      transition: 0.5s;
 }
@@ -144,7 +144,7 @@ nav{
 }
 .see-more-btn a{
      font-size: 20px;
-     color: #E02C6D;
+     color: skyblue;
      text-decoration: none;
      padding: 10px;
 }
@@ -156,6 +156,76 @@ nav{
      display: flex;
      flex-direction: row;
      justify-content: flex-end;
+}
+
+
+.total-information{
+     background-color: lightskyblue;
+     margin-bottom: 40px;
+     box-shadow: 2px 2px 2px 2px gray;
+}
+.about-us{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.login-title{
+     font-size: 50px;
+     font-weight: 700;
+     padding: 5px 0;
+     
+
+}
+.login-descrioption{
+     font-weight: 500;
+     font-family: 'Luxurious Roman', cursive;
+     padding: 5px 0;
+     
+}
+.input-email{
+     width: 50%;
+     padding: 12px 20px;
+     margin:  10px 0;
+     display: inline-block;
+     border-radius: 50px;
+     font-size: 18px;
+     border: 2px solid darkblue;
+     background-color: lightskyblue;
+     color: black;
+     transition: 0.5;
+
+}
+.input-email:hover{
+     background-color: white;
+     
+}
+.subscribe-btn{
+     
+     padding: 12px 15px;
+     font-size: 20px;
+     font-weight: 700;
+     border: 2px solid darkblue ;
+     background-color: lightskyblue;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+.subscribe-btn:hover{
+     background-color: white;
+}
+.payment{
+     margin-top: 50px;
+}
+.payment-icon{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 30px;
+     align-items: center;
+}
+.payment-icon img{
+     width: 100px;
+     height: 100px;
+     cursor: pointer;
 }
 
 
